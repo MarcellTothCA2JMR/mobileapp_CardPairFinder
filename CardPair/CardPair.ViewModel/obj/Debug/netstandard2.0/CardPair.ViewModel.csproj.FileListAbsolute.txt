@@ -1,0 +1,13 @@
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\bin\Debug\netstandard2.0\CardPair.ViewModel.deps.json
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\bin\Debug\netstandard2.0\CardPair.ViewModel.dll
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\bin\Debug\netstandard2.0\CardPair.ViewModel.pdb
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\bin\Debug\netstandard2.0\CardPair.Model.dll
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\bin\Debug\netstandard2.0\CardPair.Model.pdb
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.csproj.AssemblyReference.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.AssemblyInfoInputs.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.AssemblyInfo.cs
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.csproj.CoreCompileInputs.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.csproj.CopyComplete
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.dll
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.ViewModel\obj\Debug\netstandard2.0\CardPair.ViewModel.pdb

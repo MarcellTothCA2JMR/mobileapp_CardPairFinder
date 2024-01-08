@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CardPair.GamePage"
+             Title="Find the Pairs!">
+    <ContentPage.Content>
+        <FlexLayout BindableLayout.ItemsSource="{Binding Cardtable}" Direction="Row" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AlignItems="Stretch" AlignContent="Stretch" Wrap="NoWrap">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <FlexLayout BindableLayout.ItemsSource="{Binding}" Direction="Column" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AlignItems="Stretch" AlignContent="Stretch" Wrap="NoWrap"
+                                FlexLayout.Grow="1000" >
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="0" Margin="0.5" FlexLayout.Grow="1000" FlexLayout.Shrink="0" FlexLayout.Basis="1" FlexLayout.AlignSelf="Stretch" BorderColor="Orange">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding TurnCommand}" CommandParameter="{Binding}" />
+                                    </Frame.GestureRecognizers>
+
+                                    <Frame.Triggers>
+                                        <DataTrigger TargetType="Frame" Binding="{Binding OwnerId}" Value="0">
+                                            <Setter Property="BackgroundColor" Value="Blue" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Frame" Binding="{Binding OwnerId}" Value="1">
+                                            <Setter Property="BackgroundColor" Value="Green" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Frame" Binding="{Binding OwnerId}" Value="2">
+                                            <Setter Property="BackgroundColor" Value="Red" />
+                                        </DataTrigger>
+                                    </Frame.Triggers>
+
+                                    <Grid>
+                                        <Image Aspect="AspectFit">
+                                            <Image.Triggers>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownAce">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpAce">
+                                                    <Setter Property="Source" Value="AceOfSpd.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundAce">
+                                                    <Setter Property="Source" Value="AceOfSpd.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownKing">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpKing">
+                                                    <Setter Property="Source" Value="KingOfSpd.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundKing">
+                                                    <Setter Property="Source" Value="KingOfSpd.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownQueen">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpQueen">
+                                                    <Setter Property="Source" Value="QueenOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundQueen">
+                                                    <Setter Property="Source" Value="QueenOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownJack">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpJack">
+                                                    <Setter Property="Source" Value="JackOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundJack">
+                                                    <Setter Property="Source" Value="JackOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownTen">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpTen">
+                                                    <Setter Property="Source" Value="tenOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundTen">
+                                                    <Setter Property="Source" Value="tenOfSpades.jpg" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownNine">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpNine">
+                                                    <Setter Property="Source" Value="nineOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundNine">
+                                                    <Setter Property="Source" Value="nineOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownEight">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpEight">
+                                                    <Setter Property="Source" Value="eightOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundEight">
+                                                    <Setter Property="Source" Value="eightOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedDownSeven">
+                                                    <Setter Property="Source" Value="" />
+                                                    <Setter Property="IsVisible" Value="False" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="TurnedUpSeven">
+                                                    <Setter Property="Source" Value="aSevenOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Image" Binding="{Binding Field}" Value="FoundSeven">
+                                                    <Setter Property="Source" Value="aSevenOfSpades.png" />
+                                                    <Setter Property="IsVisible" Value="True" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                        <Label Text="{Binding OwnerId}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" FontSize="Large" TextColor="Magenta">
+                                            <Label.Triggers>
+                                                <DataTrigger TargetType="Label" Binding="{Binding OwnerId}" Value="0">
+                                                    <Setter Property="IsVisible" Value="False"/>
+                                                </DataTrigger>
+                                            </Label.Triggers>
+                                        </Label>
+                                    </Grid>
+                                </Frame>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </FlexLayout>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

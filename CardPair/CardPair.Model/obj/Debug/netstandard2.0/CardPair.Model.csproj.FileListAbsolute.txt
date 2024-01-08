@@ -1,0 +1,10 @@
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\bin\Debug\netstandard2.0\CardPair.Model.deps.json
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\bin\Debug\netstandard2.0\CardPair.Model.dll
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\bin\Debug\netstandard2.0\CardPair.Model.pdb
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.csproj.AssemblyReference.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.GeneratedMSBuildEditorConfig.editorconfig
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.AssemblyInfoInputs.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.AssemblyInfo.cs
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.csproj.CoreCompileInputs.cache
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.dll
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair.Model\obj\Debug\netstandard2.0\CardPair.Model.pdb

@@ -1,0 +1,1 @@
+M:\EgyetemiTananyagok\HarmadikFelev\MobilAlkalmazasfejlesztes\make_Refactoring\CardPair\CardPair\CardPair.UWP\CardPair.UWP.csproj;x86
